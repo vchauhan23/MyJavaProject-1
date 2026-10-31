@@ -61,7 +61,7 @@ public class StudentController {
         students.add(student);
         return student;
     }
-
+    
     // Q5(A): Update student
     @PutMapping("/{studentId}")
     public Object updateStudent(
